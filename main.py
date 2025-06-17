@@ -1,9 +1,9 @@
 #scrpts
 import time #Built in clock abt clocks, pausing, n timers
-import tkinter as tk
-from tkinter import filedialog
+import tkinter as tk # import tinker as tk
+from tkinter import filedialog # let tinker open wndows
 
-root = tk.Tk()
+root = tk.Tk() # makes gui
 root.withdraw()
 
 
@@ -125,3 +125,7 @@ elif madlib2 == "n":
 
 else:
     print("\nOops! Please enter Y or N.")
+
+
+
+
